@@ -113,37 +113,231 @@ crop-residue-management/
 - Python 3.8 or higher
 - MongoDB 6.0 or higher
 - Git
+- Code editor (VS Code recommended)
 
-### Setup Instructions
+### Quick Start Guide (5 Minutes)
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Saivardhan2/AI-based-PHCRMS.git
-   cd AI-based-PHCRMS
-   ```
+**Step 1: Clone the Repository**
+```bash
+git clone https://github.com/Saivardhan2/AI-based-PHCRMS.git
+cd AI-based-PHCRMS
+```
 
-2. **Backend Setup**
-   ```bash
-   cd backend
-   npm install
-   cp .env.example .env
-   # Update .env with your MongoDB URI and other configurations
-   npm run dev
-   ```
+**Step 2: Setup Backend**
+```bash
+cd backend
+npm install
+# Create .env file with MongoDB connection
+echo "MONGODB_URI=mongodb://localhost:27017/crop-residue-management" > .env
+echo "JWT_SECRET=your-secret-key-here" >> .env
+echo "PORT=5000" >> .env
+npm run dev
+```
 
-3. **Frontend Setup**
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
+**Step 3: Setup Frontend**
+```bash
+# Open new terminal
+cd frontend
+npm install
+npm start
+```
 
-4. **AI Model Setup**
-   ```bash
-   cd ai-model
-   pip install -r requirements.txt
-   python app.py
-   ```
+**Step 4: Setup AI Model**
+```bash
+# Open third terminal
+cd ai-model
+pip install -r requirements.txt
+python app.py
+```
+
+**Step 5: Access the Application**
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:5000
+- AI Service: http://localhost:5001
+
+### Detailed Setup Instructions
+
+#### 1. System Requirements Check
+```bash
+# Check Node.js version
+node --version  # Should be 18.0 or higher
+
+# Check Python version
+python --version  # Should be 3.8 or higher
+
+# Check MongoDB
+mongod --version  # Should be 6.0 or higher
+```
+
+#### 2. MongoDB Setup
+**Windows:**
+```bash
+# Install MongoDB Community Server
+# Download from: https://www.mongodb.com/try/download/community
+# Start MongoDB service
+net start MongoDB
+```
+
+**macOS:**
+```bash
+# Install using Homebrew
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
+```
+
+**Linux (Ubuntu/Debian):**
+```bash
+# Install MongoDB
+wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+sudo systemctl start mongod
+sudo systemctl enable mongod
+```
+
+#### 3. Backend Configuration
+```bash
+cd backend
+npm install
+
+# Create environment file
+cat > .env << EOF
+MONGODB_URI=mongodb://localhost:27017/crop-residue-management
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+PORT=5000
+NODE_ENV=development
+EOF
+
+# Start backend server
+npm run dev
+```
+
+#### 4. Frontend Configuration
+```bash
+cd frontend
+npm install
+
+# Create environment file (optional)
+cat > .env << EOF
+REACT_APP_API_URL=http://localhost:5000
+REACT_APP_AI_SERVICE_URL=http://localhost:5001
+EOF
+
+# Start frontend
+npm start
+```
+
+#### 5. AI Model Setup
+```bash
+cd ai-model
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Start AI service
+python app.py
+```
+
+### Verification Steps
+
+**1. Check Backend Health**
+```bash
+curl http://localhost:5000/api/health
+# Expected: {"status": "ok", "message": "Server is running"}
+```
+
+**2. Check AI Service Health**
+```bash
+curl http://localhost:5001/
+# Expected: Flask server response
+```
+
+**3. Check Frontend**
+- Open browser and navigate to http://localhost:3000
+- Should see the application homepage
+
+### Troubleshooting
+
+#### Common Issues and Solutions
+
+**Issue: MongoDB Connection Failed**
+```bash
+# Solution: Check if MongoDB is running
+sudo systemctl status mongod  # Linux
+brew services list | grep mongodb  # macOS
+net start MongoDB  # Windows
+
+# Start MongoDB if not running
+sudo systemctl start mongod  # Linux
+brew services start mongodb-community  # macOS
+```
+
+**Issue: Port Already in Use**
+```bash
+# Find process using port
+netstat -tulpn | grep :5000  # Linux
+netstat -ano | findstr :5000  # Windows
+
+# Kill process
+sudo kill -9 <PID>  # Linux
+taskkill /PID <PID> /F  # Windows
+
+# Alternative: Use different port
+PORT=5001 npm run dev
+```
+
+**Issue: Python Dependencies Not Found**
+```bash
+# Solution: Use virtual environment
+python -m venv ai-env
+source ai-env/bin/activate  # Linux/macOS
+ai-env\Scripts\activate  # Windows
+pip install -r requirements.txt
+```
+
+**Issue: Node.js Version Incompatible**
+```bash
+# Solution: Use nvm to manage Node versions
+nvm install 18
+nvm use 18
+nvm alias default 18
+```
+
+#### Development Tips
+
+**1. Running All Services Simultaneously**
+```bash
+# Use terminal multiplexer (tmux or screen)
+# Or use IDE with multiple terminals
+# Or use process managers like PM2
+```
+
+**2. Environment Variables**
+```bash
+# Always use .env files for sensitive data
+# Never commit .env files to Git
+# Use different configs for development/production
+```
+
+**3. Database Initialization**
+```bash
+# MongoDB will create database automatically
+# No manual setup required for basic usage
+# Data persists across restarts
+```
+
+### Production Deployment
+
+For production deployment, refer to [Deployment Guide](docs/Deployment-Guide.md) (coming soon).
+
+### Docker Setup (Advanced)
+
+```bash
+# Build and run with Docker Compose
+docker-compose up -d
+```
 
 For detailed setup instructions, refer to [Setup Guide](docs/Setup-Instructions.md).
 
