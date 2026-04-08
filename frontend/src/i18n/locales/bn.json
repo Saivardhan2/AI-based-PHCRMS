@@ -1,0 +1,171 @@
+{
+  "common": {
+    "home": "হোম",
+    "dashboard": "ড্যাশবোর্ড",
+    "marketplace": "মার্কেটপ্লেস",
+    "residue_estimation": "অবশেষ অনুমান",
+    "environmental_impact": "পরিবেশগত প্রভাব",
+    "transactions": "লেনদেন",
+    "profile": "প্রোফাইল",
+    "login": "লগইন",
+    "register": "নিবন্ধন",
+    "logout": "লগআউট",
+    "save": "সংরক্ষণ করুন",
+    "cancel": "বাতিল করুন",
+    "submit": "জমা দিন",
+    "edit": "সম্পাদনা করুন",
+    "delete": "মুছুন",
+    "search": "অনুসন্ধান",
+    "filter": "ফিল্টার",
+    "loading": "লোড হচ্ছে...",
+    "error": "ত্রুটি",
+    "success": "সফলতা"
+  },
+  "navigation": {
+    "farmer_portal": "কৃষক পোর্টাল",
+    "buyer_portal": "ক্রেতা পোর্টাল",
+    "language": "ভাষা"
+  },
+  "home": {
+    "title": "AI-চালিত ফসল অবশেষ ব্যবস্থাপনা",
+    "subtitle": "টেকসই কৃষির জন্য স্মার্ট মার্কেটপ্লেস",
+    "description": "কৃষকদের ক্রেতাদের সাথে সংযুক্ত করুন, অবশেষ ব্যবহার অপ্টিমাইজ করুন, এবং পরিবেশগত প্রভাব ট্র্যাক করুন",
+    "features": {
+      "ai_estimation": "AI-ভিত্তিক অবশেষ অনুমান",
+      "smart_recommendations": "স্মার্ট ক্রেতা সুপারিশ",
+      "environmental_tracking": "পরিবেশগত প্রভাব ট্র্যাকিং",
+      "marketplace": "ডিজিটাল মার্কেটপ্লেস"
+    },
+    "get_started": "শুরু করুন",
+    "learn_more": "আরও জানুন"
+  },
+  "farmer_registration": {
+    "title": "কৃষক নিবন্ধন",
+    "personal_info": "ব্যক্তিগত তথ্য",
+    "farm_details": "খামারের বিবরণ",
+    "name": "পূর্ণ নাম",
+    "email": "ইমেল ঠিকানা",
+    "phone": "ফোন নম্বর",
+    "village": "গ্রাম",
+    "district": "জেলা",
+    "state": "রাজ্য",
+    "crop_type": "ফসলের ধরন",
+    "yield": "ফলন (টন)",
+    "cultivated_area": "চাষাবাদের এলাকা (একর)",
+    "password": "পাসওয়ার্ড",
+    "confirm_password": "পাসওয়ার্ড নিশ্চিত করুন",
+    "register_success": "নিবন্ধন সফল!",
+    "login_prompt": "ইতিমধ্যে অ্যাকাউন্ট আছে? এখানে লগইন করুন"
+  },
+  "buyer_registration": {
+    "title": "ক্রেতা নিবন্ধন",
+    "business_info": "ব্যবসায়িক তথ্য",
+    "business_name": "ব্যবসার নাম",
+    "business_type": "ব্যবসার ধরন",
+    "address": "ব্যবসায়িক ঠিকানা",
+    "required_residues": "প্রয়োজনীয় অবশেষের ধরন",
+    "price_per_unit": "প্রতি ইউনিট মূল্য ($)",
+    "minimum_quantity": "ন্যূনতম পরিমাণ (টন)",
+    "maximum_quantity": "সর্বোচ্চ পরিমাণ (টন)",
+    "register_success": "ক্রেতা নিবন্ধন সফল!"
+  },
+  "login": {
+    "title": "লগইন",
+    "email": "ইমেল",
+    "password": "পাসওয়ার্ড",
+    "farmer_login": "কৃষক লগইন",
+    "buyer_login": "ক্রেতা লগইন",
+    "login_success": "লগইন সফল!",
+    "register_prompt": "অ্যাকাউন্ট নেই? এখানে নিবন্ধন করুন"
+  },
+  "dashboard": {
+    "welcome": "স্বাগতম!",
+    "overview": "ওভারভিউ",
+    "total_residue": "মোট অবশেষ",
+    "transactions": "লেনদেন",
+    "environmental_impact": "পরিবেশগত প্রভাব",
+    "recent_activities": "সাম্প্রতিক কার্যক্রম",
+    "quick_actions": "দ্রুত ক্রিয়া",
+    "estimate_residue": "অবশেষ অনুমান",
+    "find_buyers": "ক্রেতা খুঁজুন",
+    "view_transactions": "লেনদেন দেখুন"
+  },
+  "residue_estimation": {
+    "title": "অবশেষ অনুমান",
+    "crop_details": "ফসলের বিবরণ",
+    "estimation_results": "অনুমানের ফলাফল",
+    "total_residue": "মোট অবশেষ পরিমাণ",
+    "residue_breakdown": "অবশেষের ধরন বিশ্লেষণ",
+    "utilization_recommendations": "ব্যবহারের সুপারিশ",
+    "sell_to_buyers": "ক্রেতাদের কাছে বিক্রি করুন",
+    "alternative_uses": "বিকল্প ব্যবহার",
+    "composting": "কম্পোস্টিং",
+    "animal_fodder": "পশুখাদ্য",
+    "biochar": "বায়োচার উত্পাদন",
+    "biogas": "বায়োগ্যাস উত্পাদন",
+    "mulching": "মালচিং"
+  },
+  "marketplace": {
+    "title": "মার্কেটপ্লেস",
+    "residue_listings": "অবশেষ তালিকা",
+    "buyer_recommendations": "সুপারিশকৃত ক্রেতা",
+    "price_trends": "মূল্য প্রবণতা",
+    "filter_by": "দ্বারা ফিল্টার করুন",
+    "crop_type": "ফসলের ধরন",
+    "location": "অবস্থান",
+    "quantity": "পরিমাণ",
+    "price": "মূল্য",
+    "distance": "দূরত্ব",
+    "contact_buyer": "ক্রেতার সাথে যোগাযোগ করুন",
+    "negotiate": "আলোচনা করুন",
+    "view_details": "বিবরণ দেখুন"
+  },
+  "environmental_impact": {
+    "title": "পরিবেশগত প্রভাব",
+    "impact_summary": "প্রভাব সারসংক্ষেপ",
+    "co2_reduction": "CO₂ হ্রাস",
+    "pm25_reduction": "PM2.5 হ্রাস",
+    "trees_saved": "বাঁচানো গাছ",
+    "carbon_footprint": "কার্বন ফুটপ্রিন্ট হ্রাস",
+    "air_quality": "বায়ু গুণমান উন্নতি",
+    "environmental_benefits": "পরিবেশগত সুবিধা",
+    "sustainability_metrics": "টেকসইতা মেট্রিক্স"
+  },
+  "transactions": {
+    "title": "লেনদেন",
+    "transaction_history": "লেনদেনের ইতিহাস",
+    "status": "অবস্থা",
+    "pending": "মুলতুবি",
+    "confirmed": "নিশ্চিত",
+    "completed": "সম্পন্ন",
+    "cancelled": "বাতিল",
+    "date": "তারিখ",
+    "quantity": "পরিমাণ",
+    "total_price": "মোট মূল্য",
+    "buyer": "ক্রেতা",
+    "farmer": "কৃষক",
+    "negotiation": "আলোচনা",
+    "send_message": "বার্তা পাঠান"
+  },
+  "profile": {
+    "title": "প্রোফাইল",
+    "personal_details": "ব্যক্তিগত বিবরণ",
+    "farm_business_details": "খামার/ব্যবসায়িক বিবরণ",
+    "contact_information": "যোগাযোগের তথ্য",
+    "update_profile": "প্রোফাইল আপডেট করুন",
+    "change_password": "পাসওয়ার্ড পরিবর্তন করুন",
+    "account_settings": "অ্যাকাউন্ট সেটিংস"
+  },
+  "notifications": {
+    "new_messages": "নতুন বার্তা",
+    "price_alerts": "মূল্য সতর্কতা",
+    "transaction_updates": "লেনদেন আপডেট",
+    "environmental_achievements": "পরিবেশগত অর্জন"
+  },
+  "errors": {
+    "network_error": "নেটওয়ার্ক ত্রুটি। আপনার সংযোগ পরীক্ষা করুন।",
+    "validation_error": "আপনার ইনপুট পরীক্ষা করুন এবং আবার চেষ্টা করুন।",
+    "authentication_error": "প্রমাণীকরণ ব্যর্থ। আবার লগইন করুন।",
+    "server_error": "সার্ভার ত্রুটি। পরে আবার চেষ্টা করুন।"
+  }
+}

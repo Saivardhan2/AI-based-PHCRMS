@@ -1,0 +1,171 @@
+{
+  "common": {
+    "home": "होम",
+    "dashboard": "डैशबोर्ड",
+    "marketplace": "मार्केटप्लेस",
+    "residue_estimation": "अवशेष अनुमान",
+    "environmental_impact": "पर्यावरणीय प्रभाव",
+    "transactions": "लेनदेन",
+    "profile": "प्रोफाइल",
+    "login": "लॉगिन",
+    "register": "रजिस्टर",
+    "logout": "लॉगआउट",
+    "save": "सेव करें",
+    "cancel": "रद्द करें",
+    "submit": "जमा करें",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "search": "खोजें",
+    "filter": "फिल्टर",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता"
+  },
+  "navigation": {
+    "farmer_portal": "किसान पोर्टल",
+    "buyer_portal": "खरीदार पोर्टल",
+    "language": "भाषा"
+  },
+  "home": {
+    "title": "AI-संचालित फसल अवशेष प्रबंधन",
+    "subtitle": "सतत खेती के लिए स्मार्ट मार्केटप्लेस",
+    "description": "किसानों को खरीदारों से जोड़ें, अवशेष उपयोग का अनुकूलन करें, और पर्यावरणीय प्रभाव ट्रैक करें",
+    "features": {
+      "ai_estimation": "AI-आधारित अवशेष अनुमान",
+      "smart_recommendations": "स्मार्ट खरीदार अनुशंसाएं",
+      "environmental_tracking": "पर्यावरणीय प्रभाव ट्रैकिंग",
+      "marketplace": "डिजिटल मार्केटप्लेस"
+    },
+    "get_started": "शुरू करें",
+    "learn_more": "और जानें"
+  },
+  "farmer_registration": {
+    "title": "किसान पंजीकरण",
+    "personal_info": "व्यक्तिगत जानकारी",
+    "farm_details": "खेत विवरण",
+    "name": "पूरा नाम",
+    "email": "ईमेल पता",
+    "phone": "फोन नंबर",
+    "village": "गांव",
+    "district": "जिला",
+    "state": "राज्य",
+    "crop_type": "फसल का प्रकार",
+    "yield": "उपज (टन)",
+    "cultivated_area": "खेती की जमीन (एकड़)",
+    "password": "पासवर्ड",
+    "confirm_password": "पासवर्ड की पुष्टि करें",
+    "register_success": "पंजीकरण सफल!",
+    "login_prompt": "पहले से ही खाता है? यहां लॉगिन करें"
+  },
+  "buyer_registration": {
+    "title": "खरीदार पंजीकरण",
+    "business_info": "व्यापार जानकारी",
+    "business_name": "व्यापार का नाम",
+    "business_type": "व्यापार का प्रकार",
+    "address": "व्यापार पता",
+    "required_residues": "आवश्यक अवशेष प्रकार",
+    "price_per_unit": "प्रति इकाई मूल्य ($)",
+    "minimum_quantity": "न्यूनतम मात्रा (टन)",
+    "maximum_quantity": "अधिकतम मात्रा (टन)",
+    "register_success": "खरीदार पंजीकरण सफल!"
+  },
+  "login": {
+    "title": "लॉगिन",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "farmer_login": "किसान लॉगिन",
+    "buyer_login": "खरीदार लॉगिन",
+    "login_success": "लॉगिन सफल!",
+    "register_prompt": "खाता नहीं है? यहां पंजीकरण करें"
+  },
+  "dashboard": {
+    "welcome": "वापसी पर स्वागत है!",
+    "overview": "अवलोकन",
+    "total_residue": "कुल अवशेष",
+    "transactions": "लेनदेन",
+    "environmental_impact": "पर्यावरणीय प्रभाव",
+    "recent_activities": "हाल की गतिविधियां",
+    "quick_actions": "त्वरित कार्रवाई",
+    "estimate_residue": "अवशेष अनुमान",
+    "find_buyers": "खरीदार खोजें",
+    "view_transactions": "लेनदेन देखें"
+  },
+  "residue_estimation": {
+    "title": "अवशेष अनुमान",
+    "crop_details": "फसल विवरण",
+    "estimation_results": "अनुमान परिणाम",
+    "total_residue": "कुल अवशेष मात्रा",
+    "residue_breakdown": "अवशेष प्रकार विवरण",
+    "utilization_recommendations": "उपयोग अनुशंसाएं",
+    "sell_to_buyers": "खरीदारों को बेचें",
+    "alternative_uses": "वैकल्पिक उपयोग",
+    "composting": "कंपोस्टिंग",
+    "animal_fodder": "पशु चारा",
+    "biochar": "बायोचार उत्पादन",
+    "biogas": "बायोगैस उत्पादन",
+    "mulching": "मल्चिंग"
+  },
+  "marketplace": {
+    "title": "मार्केटप्लेस",
+    "residue_listings": "अवशेष सूची",
+    "buyer_recommendations": "अनुशंसित खरीदार",
+    "price_trends": "मूल्य प्रवृत्तियां",
+    "filter_by": "इसके अनुसार फिल्टर करें",
+    "crop_type": "फसल प्रकार",
+    "location": "स्थान",
+    "quantity": "मात्रा",
+    "price": "मूल्य",
+    "distance": "दूरी",
+    "contact_buyer": "खरीदार से संपर्क करें",
+    "negotiate": "सौदा करें",
+    "view_details": "विवरण देखें"
+  },
+  "environmental_impact": {
+    "title": "पर्यावरणीय प्रभाव",
+    "impact_summary": "प्रभाव सारांश",
+    "co2_reduction": "CO₂ कमी",
+    "pm25_reduction": "PM2.5 कमी",
+    "trees_saved": "बचाए गए पेड़",
+    "carbon_footprint": "कार्बन फुटप्रिंट कमी",
+    "air_quality": "वायु गुणवत्ता सुधार",
+    "environmental_benefits": "पर्यावरणीय लाभ",
+    "sustainability_metrics": "सततता मेट्रिक्स"
+  },
+  "transactions": {
+    "title": "लेनदेन",
+    "transaction_history": "लेनदेन इतिहास",
+    "status": "स्थिति",
+    "pending": "लंबित",
+    "confirmed": "पुष्टि",
+    "completed": "पूर्ण",
+    "cancelled": "रद्द",
+    "date": "दिनांक",
+    "quantity": "मात्रा",
+    "total_price": "कुल मूल्य",
+    "buyer": "खरीदार",
+    "farmer": "किसान",
+    "negotiation": "सौदा",
+    "send_message": "संदेश भेजें"
+  },
+  "profile": {
+    "title": "प्रोफाइल",
+    "personal_details": "व्यक्तिगत विवरण",
+    "farm_business_details": "खेत/व्यापार विवरण",
+    "contact_information": "संपर्क जानकारी",
+    "update_profile": "प्रोफाइल अपडेट करें",
+    "change_password": "पासवर्ड बदलें",
+    "account_settings": "खाता सेटिंग्स"
+  },
+  "notifications": {
+    "new_messages": "नए संदेश",
+    "price_alerts": "मूल्य अलर्ट",
+    "transaction_updates": "लेनदेन अपडेट",
+    "environmental_achievements": "पर्यावरणीय उपलब्धियां"
+  },
+  "errors": {
+    "network_error": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।",
+    "validation_error": "कृपया अपना इनपुट जांचें और फिर से कोशिश करें।",
+    "authentication_error": "प्रमाणीकरण विफल। कृपया फिर से लॉगिन करें।",
+    "server_error": "सर्वर त्रुटि। कृपया बाद में फिर से कोशिश करें।"
+  }
+}

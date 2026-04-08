@@ -1,0 +1,171 @@
+{
+  "common": {
+    "home": "होम",
+    "dashboard": "डॅशबोर्ड",
+    "marketplace": "मार्केटप्लेस",
+    "residue_estimation": "अवशिष्टांचा अंदाज",
+    "environmental_impact": "पर्यावरणीय परिणाम",
+    "transactions": "व्यवहार",
+    "profile": "प्रोफाइल",
+    "login": "लॉगिन",
+    "register": "नोंदणी",
+    "logout": "लॉगआउट",
+    "save": "जतन करा",
+    "cancel": "रद्द करा",
+    "submit": "सादर करा",
+    "edit": "संपादित करा",
+    "delete": "हटवा",
+    "search": "शोधा",
+    "filter": "फिल्टर",
+    "loading": "लोड होत आहे...",
+    "error": "त्रुटी",
+    "success": "यश"
+  },
+  "navigation": {
+    "farmer_portal": "शेतकरी पोर्टल",
+    "buyer_portal": "खरेदार पोर्टल",
+    "language": "भाषा"
+  },
+  "home": {
+    "title": "AI-आधारित पीक अवशिष्ट व्यवस्थापन",
+    "subtitle": "शाश्वत शेतीसाठी स्मार्ट मार्केटप्लेस",
+    "description": "शेतकऱ्यांना खरेदारांशी जोडा, अवशिष्ट वापर ऑप्टिमाइझ करा, आणि पर्यावरणीय परिणाम मागोवा",
+    "features": {
+      "ai_estimation": "AI-आधारित अवशिष्ट अंदाज",
+      "smart_recommendations": "स्मार्ट खरेदार शिफारसी",
+      "environmental_tracking": "पर्यावरणीय परिणाम मागोवा",
+      "marketplace": "डिजिटल मार्केटप्लेस"
+    },
+    "get_started": "सुरु करा",
+    "learn_more": "अधिक जाणून घ्या"
+  },
+  "farmer_registration": {
+    "title": "शेतकरी नोंदणी",
+    "personal_info": "वैयक्तिक माहिती",
+    "farm_details": "शेत तपशील",
+    "name": "पूर्ण नाव",
+    "email": "ईमेल पत्ता",
+    "phone": "फोन नंबर",
+    "village": "गाव",
+    "district": "जिल्हा",
+    "state": "राज्य",
+    "crop_type": "पीक प्रकार",
+    "yield": "उत्पादन (टन)",
+    "cultivated_area": "लागवडी केलेले क्षेत्र (एकर)",
+    "password": "पासवर्ड",
+    "confirm_password": "पासवर्ड निश्चित करा",
+    "register_success": "नोंदणी यशस्वी झाली!",
+    "login_prompt": "आधीच खाते आहे? येथे लॉगिन करा"
+  },
+  "buyer_registration": {
+    "title": "खरेदार नोंदणी",
+    "business_info": "व्यवसाय माहिती",
+    "business_name": "व्यवसायाचे नाव",
+    "business_type": "व्यवसाय प्रकार",
+    "address": "व्यवसाय पत्ता",
+    "required_residues": "आवश्यक अवशिष्ट प्रकार",
+    "price_per_unit": "प्रति युनिट किंमत ($)",
+    "minimum_quantity": "किमान प्रमाण (टन)",
+    "maximum_quantity": "कमाल प्रमाण (टन)",
+    "register_success": "खरेदार नोंदणी यशस्वी झाली!"
+  },
+  "login": {
+    "title": "लॉगिन",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "farmer_login": "शेतकरी लॉगिन",
+    "buyer_login": "खरेदार लॉगिन",
+    "login_success": "लॉगिन यशस्वी झाला!",
+    "register_prompt": "खाते नाही? येथे नोंदणी करा"
+  },
+  "dashboard": {
+    "welcome": "स्वागत आहे!",
+    "overview": "अवलोकन",
+    "total_residue": "एकूण अवशिष्ट",
+    "transactions": "व्यवहार",
+    "environmental_impact": "पर्यावरणीय परिणाम",
+    "recent_activities": "अलीकडील क्रियाकलाप",
+    "quick_actions": "जलद कृती",
+    "estimate_residue": "अवशिष्टांचा अंदाज",
+    "find_buyers": "खरेदार शोधा",
+    "view_transactions": "व्यवहार पहा"
+  },
+  "residue_estimation": {
+    "title": "अवशिष्टांचा अंदाज",
+    "crop_details": "पीक तपशील",
+    "estimation_results": "अंदाज परिणाम",
+    "total_residue": "एकूण अवशिष्ट प्रमाण",
+    "residue_breakdown": "अवशिष्ट प्रकार विभाजन",
+    "utilization_recommendations": "वापर शिफारसी",
+    "sell_to_buyers": "खरेदारांना विक्री करा",
+    "alternative_uses": "पर्यायी वापर",
+    "composting": "कंपोस्टिंग",
+    "animal_fodder": "प्राणी चारा",
+    "biochar": "बायोचार उत्पादन",
+    "biogas": "बायोगॅस उत्पादन",
+    "mulching": "मल्चिंग"
+  },
+  "marketplace": {
+    "title": "मार्केटप्लेस",
+    "residue_listings": "अवशिष्ट सूची",
+    "buyer_recommendations": "शिफारसीत खरेदार",
+    "price_trends": "किंमत रुझान",
+    "filter_by": "नुसार फिल्टर करा",
+    "crop_type": "पीक प्रकार",
+    "location": "स्थान",
+    "quantity": "प्रमाण",
+    "price": "किंमत",
+    "distance": "अंतर",
+    "contact_buyer": "खरेदाराशी संपर्क साधा",
+    "negotiate": "वाटाघाटी करा",
+    "view_details": "तपशील पहा"
+  },
+  "environmental_impact": {
+    "title": "पर्यावरणीय परिणाम",
+    "impact_summary": "परिणाम सारांश",
+    "co2_reduction": "CO₂ कमी",
+    "pm25_reduction": "PM2.5 कमी",
+    "trees_saved": "वाचलेले झाडे",
+    "carbon_footprint": "कार्बन फुटप्रिंट कमी",
+    "air_quality": "वायु गुणवत्ता सुधारणा",
+    "environmental_benefits": "पर्यावरणीय फायदे",
+    "sustainability_metrics": "शाश्वतता मेट्रिक्स"
+  },
+  "transactions": {
+    "title": "व्यवहार",
+    "transaction_history": "व्यवहार इतिहास",
+    "status": "स्थिती",
+    "pending": "प्रलंबित",
+    "confirmed": "निश्चित",
+    "completed": "पूर्ण",
+    "cancelled": "रद्द",
+    "date": "तारीख",
+    "quantity": "प्रमाण",
+    "total_price": "एकूण किंमत",
+    "buyer": "खरेदार",
+    "farmer": "शेतकरी",
+    "negotiation": "वाटाघाट",
+    "send_message": "संदेश पाठवा"
+  },
+  "profile": {
+    "title": "प्रोफाइल",
+    "personal_details": "वैयक्तिक तपशील",
+    "farm_business_details": "शेत/व्यवसाय तपशील",
+    "contact_information": "संपर्क माहिती",
+    "update_profile": "प्रोफाइल अपडेट करा",
+    "change_password": "पासवर्ड बदला",
+    "account_settings": "खाते सेटिंग्स"
+  },
+  "notifications": {
+    "new_messages": "नवीन संदेश",
+    "price_alerts": "किंमत सूचना",
+    "transaction_updates": "व्यवहार अपडेट्स",
+    "environmental_achievements": "पर्यावरणीय यश"
+  },
+  "errors": {
+    "network_error": "नेटवर्क त्रुटी. कृपया आपला कनेक्शन तपासा.",
+    "validation_error": "कृपया आपला इनपुट तपासा आणि पुन्हा प्रयत्न करा.",
+    "authentication_error": "प्रमाणीकरण अयशस्वी. कृपया पुन्हा लॉगिन करा.",
+    "server_error": "सर्व्हर त्रुटी. कृपया नंतर पुन्हा प्रयत्न करा."
+  }
+}

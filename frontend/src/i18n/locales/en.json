@@ -1,0 +1,171 @@
+{
+  "common": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "marketplace": "Marketplace",
+    "residue_estimation": "Residue Estimation",
+    "environmental_impact": "Environmental Impact",
+    "transactions": "Transactions",
+    "profile": "Profile",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "navigation": {
+    "farmer_portal": "Farmer Portal",
+    "buyer_portal": "Buyer Portal",
+    "language": "Language"
+  },
+  "home": {
+    "title": "AI-Powered Crop Residue Management",
+    "subtitle": "Smart marketplace for sustainable agriculture",
+    "description": "Connect farmers with buyers, optimize residue utilization, and track environmental impact",
+    "features": {
+      "ai_estimation": "AI-Based Residue Estimation",
+      "smart_recommendations": "Smart Buyer Recommendations",
+      "environmental_tracking": "Environmental Impact Tracking",
+      "marketplace": "Digital Marketplace"
+    },
+    "get_started": "Get Started",
+    "learn_more": "Learn More"
+  },
+  "farmer_registration": {
+    "title": "Farmer Registration",
+    "personal_info": "Personal Information",
+    "farm_details": "Farm Details",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "village": "Village",
+    "district": "District",
+    "state": "State",
+    "crop_type": "Crop Type",
+    "yield": "Yield (tons)",
+    "cultivated_area": "Cultivated Area (acres)",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "register_success": "Registration successful!",
+    "login_prompt": "Already have an account? Login here"
+  },
+  "buyer_registration": {
+    "title": "Buyer Registration",
+    "business_info": "Business Information",
+    "business_name": "Business Name",
+    "business_type": "Business Type",
+    "address": "Business Address",
+    "required_residues": "Required Residue Types",
+    "price_per_unit": "Price per Unit ($)",
+    "minimum_quantity": "Minimum Quantity (tons)",
+    "maximum_quantity": "Maximum Quantity (tons)",
+    "register_success": "Buyer registration successful!"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "farmer_login": "Farmer Login",
+    "buyer_login": "Buyer Login",
+    "login_success": "Login successful!",
+    "register_prompt": "Don't have an account? Register here"
+  },
+  "dashboard": {
+    "welcome": "Welcome back!",
+    "overview": "Overview",
+    "total_residue": "Total Residue",
+    "transactions": "Transactions",
+    "environmental_impact": "Environmental Impact",
+    "recent_activities": "Recent Activities",
+    "quick_actions": "Quick Actions",
+    "estimate_residue": "Estimate Residue",
+    "find_buyers": "Find Buyers",
+    "view_transactions": "View Transactions"
+  },
+  "residue_estimation": {
+    "title": "Residue Estimation",
+    "crop_details": "Crop Details",
+    "estimation_results": "Estimation Results",
+    "total_residue": "Total Residue Quantity",
+    "residue_breakdown": "Residue Type Breakdown",
+    "utilization_recommendations": "Utilization Recommendations",
+    "sell_to_buyers": "Sell to Buyers",
+    "alternative_uses": "Alternative Uses",
+    "composting": "Composting",
+    "animal_fodder": "Animal Fodder",
+    "biochar": "Biochar Production",
+    "biogas": "Biogas Generation",
+    "mulching": "Mulching"
+  },
+  "marketplace": {
+    "title": "Marketplace",
+    "residue_listings": "Residue Listings",
+    "buyer_recommendations": "Recommended Buyers",
+    "price_trends": "Price Trends",
+    "filter_by": "Filter By",
+    "crop_type": "Crop Type",
+    "location": "Location",
+    "quantity": "Quantity",
+    "price": "Price",
+    "distance": "Distance",
+    "contact_buyer": "Contact Buyer",
+    "negotiate": "Negotiate",
+    "view_details": "View Details"
+  },
+  "environmental_impact": {
+    "title": "Environmental Impact",
+    "impact_summary": "Impact Summary",
+    "co2_reduction": "CO₂ Reduction",
+    "pm25_reduction": "PM2.5 Reduction",
+    "trees_saved": "Trees Saved",
+    "carbon_footprint": "Carbon Footprint Reduction",
+    "air_quality": "Air Quality Improvement",
+    "environmental_benefits": "Environmental Benefits",
+    "sustainability_metrics": "Sustainability Metrics"
+  },
+  "transactions": {
+    "title": "Transactions",
+    "transaction_history": "Transaction History",
+    "status": "Status",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "date": "Date",
+    "quantity": "Quantity",
+    "total_price": "Total Price",
+    "buyer": "Buyer",
+    "farmer": "Farmer",
+    "negotiation": "Negotiation",
+    "send_message": "Send Message"
+  },
+  "profile": {
+    "title": "Profile",
+    "personal_details": "Personal Details",
+    "farm_business_details": "Farm/Business Details",
+    "contact_information": "Contact Information",
+    "update_profile": "Update Profile",
+    "change_password": "Change Password",
+    "account_settings": "Account Settings"
+  },
+  "notifications": {
+    "new_messages": "New Messages",
+    "price_alerts": "Price Alerts",
+    "transaction_updates": "Transaction Updates",
+    "environmental_achievements": "Environmental Achievements"
+  },
+  "errors": {
+    "network_error": "Network error. Please check your connection.",
+    "validation_error": "Please check your input and try again.",
+    "authentication_error": "Authentication failed. Please login again.",
+    "server_error": "Server error. Please try again later."
+  }
+}
